@@ -27,7 +27,7 @@ const SignatureLoan = () => {
                         <button type="button" className="signature-btn">Discover</button>
                     </div>
                     <div className="col-md-6">
-                        <img src={SignatureImage} className="signature" />
+                        <img src={SignatureImage} className="signature" alt="signature" />
                     </div>
                 </div>
             </div>
