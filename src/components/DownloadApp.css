@@ -1,0 +1,11 @@
+.download-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: .5rem;
+}
+
+.download-desc {
+    margin-top: 1rem;
+    padding: 2rem;
+}

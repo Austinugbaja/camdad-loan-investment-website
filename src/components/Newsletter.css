@@ -1,0 +1,48 @@
+#newsletter {
+    margin-top: 18rem;
+}
+
+.newsletter-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    color: yellowgreen;
+}
+
+.newsletter-desc {
+    margin-top: 2rem;
+}
+
+
+.input-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding-top: 4rem;
+}
+
+input[type="text"] {
+    width: 20rem;
+    padding: .5rem;
+    border-radius: 22px;
+}
+
+.newsletter-btn {
+    border: 2px solid yellowgreen;
+    border-radius: 22px;
+    width: 8rem;
+    padding: .21rem;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (max-width: 478px) {
+    #newsletter {
+        padding-top: 33rem;
+    }
+}

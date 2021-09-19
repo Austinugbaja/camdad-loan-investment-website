@@ -1,0 +1,32 @@
+.heading-line::before {
+    content: " ";
+    width: 5rem;
+    height: 0.2rem;
+    display: block;
+    background-color: yellow;
+}
+
+.heading-line::after {
+    content: " ";
+    width: 5rem;
+    height: 0.2rem;
+    display: block;
+    background-color: yellow;
+}
+
+.display-6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome-btn {
+    font-size: .8rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    width: 10rem;
+    padding: .8rem;
+}

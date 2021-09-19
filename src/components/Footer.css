@@ -1,0 +1,44 @@
+#footer {
+    margin-top: 9rem;
+    padding-top: 3rem;
+    background-color: #000000;
+    color: #fff;
+}
+
+.camdad-image {
+    margin-bottom: 2rem;
+}
+
+.footer-contact-desc {
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: .1rem;
+}
+
+.footer-social-icons {
+    padding-right: 1rem;
+}
+
+.footer-contact-heading {
+    font-size: 1.5rem;
+    font-size: 400;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+.contact-items,
+.contact-links {
+    font-weight: lighter;
+    font-style: normal;
+    /* letter-spacing: .1rem; */
+}
+
+.app-link {
+    margin-top: 3rem;
+}
+
+.designer {
+    font-size: .6rem;
+    font-weight: lighter;
+    margin-top: 12rem;
+}
