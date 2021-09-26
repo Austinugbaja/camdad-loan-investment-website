@@ -1,0 +1,20 @@
+#contact-us-hero {
+    padding-top: 6rem;
+    background-color: #74ad14;
+}
+
+.contact-us-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.contact-us-description {
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}

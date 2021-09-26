@@ -1,0 +1,23 @@
+#about-us-hero {
+    padding-top: 12rem;
+    background-color: #74ad14;
+}
+
+.about-first-hero-section {
+  padding-top: 6rem;
+}
+
+.about-us-hero-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.about-us-hero-desc {
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}

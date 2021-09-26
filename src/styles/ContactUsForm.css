@@ -1,0 +1,30 @@
+.form-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-container {
+    padding: 8rem;
+}
+
+.contact-us-input {
+    margin-bottom: 2rem;
+}
+
+input[type=email],
+input[type=text] {
+    padding: .6rem;
+}
+
+.form-btn {
+    margin-top: 2rem;
+    border: 1px solid yellowgreen;
+    border-radius: 25px;
+    width: 10rem;
+    padding: .8rem;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}

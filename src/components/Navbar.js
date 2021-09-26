@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './camdadlogo.png';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -17,22 +17,13 @@ const Navbar = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/home" className="nav-link active" aria-current="page">Home</Link>
+                <NavLink to="/" className="nav-link active" aria-current="page">Home</NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/services" className="nav-link">Services</Link>
+                <NavLink to="/AboutUs" className="nav-link">About Us</NavLink>
               </li>
               <li className="nav-item">
-                <Link  to='/testimonials'className="nav-link">Testimonials</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/faq" className="nav-link">faq</Link>
-              </li>
-              <li className="nav-item">
-                <Link to='/portfolio' className="nav-link">Portfolio</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/contact" className="nav-link">Contact</Link>
+                <NavLink to="/ContactUs" className="nav-link">Contact Us</NavLink>
               </li>
             </ul>
            <div className="navbar-btn text-center">
@@ -40,7 +31,7 @@ const Navbar = () => {
            </div>
           </div>
         </div>
-      </nav>
+      </nav>  
  
     )
 } 

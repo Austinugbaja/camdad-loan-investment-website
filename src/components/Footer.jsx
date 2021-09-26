@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-5">
                         <img src={Logo} alt="camdad logo" className="camdad-image" />
-                        <p className="footer-contact-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sequi, numquam delectus sit vitae est laboriosam nostrum vel consequuntur eligendi?</p>
+                        <p className="footer-contact-desc">We're here to give you a headstart in securing your Finances for the Future</p>
                         <div>
                             <span className="footer-social-icons"><FontAwesomeIcon icon={faGooglePlusG} /></span>
                             <span className="footer-social-icons"><FontAwesomeIcon icon={faFacebookF} /></span>

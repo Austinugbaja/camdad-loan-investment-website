@@ -14,9 +14,9 @@ const Newsletter = () => {
                 </div>
                 <form className="row g-2 input-column">
                 <div className="newsletter-form col-auto">
-                    <input type="text" className="form-control" placeholder="Email" />
+                    <input type="email" className="form-control" placeholder="Email" />
                 </div>
-                <div className="newsletter-btn col-auto">
+                <div className="col-auto">
                    <button type="submit" className="newsletter-btn">Discover</button>
                 </div>
                 </form>

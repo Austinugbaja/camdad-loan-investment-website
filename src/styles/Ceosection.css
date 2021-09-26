@@ -1,0 +1,57 @@
+.quote {
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0 6rem 0rem 6rem;
+    margin-bottom: 1rem;
+    color: yellowgreen;
+}
+
+.quote-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.quote-ceo {
+    font-weight: 500;
+}
+
+.about-camdad-boundary {
+    margin: 6rem;
+    padding: 3rem;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.second-quote-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    color: yellowgreen;
+    text-transform: capitalize;
+}
+
+.second-quote-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.second-quote-desc {
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+.about-icons {
+    margin-top: 5rem;
+}
+
+.about-icon-logo {
+    padding-right: 1.5rem;
+}

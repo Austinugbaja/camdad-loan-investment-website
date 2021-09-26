@@ -24,3 +24,66 @@
    align-items: center;
    justify-content: center;
 }
+
+.testimonial-img {
+    position: relative;
+    left: 2rem;
+}
+.testimonial-img-one {
+    position: relative;
+    top: 9rem;
+    right: 9rem;
+}
+.testimonial-img-two {
+    position: relative;
+    top: 9rem;
+    right: 2rem;
+}
+.testimonial-img-three {
+    position: relative;
+    top: 1rem;
+    right: 2rem;
+}
+.testimonial-img-four {
+    position: relative;
+    top: 6rem;
+    right: 3rem;
+}
+.testimonial-img-five {
+    position: relative;
+    top: 9rem;
+}
+.testimonial-img-six {
+
+}
+.testimonial-img-seven {
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+}
+.testimonial-img-eight {
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+
+}
+.testimonial-img-nine {
+    position: relative;
+    top: 7rem;
+    left: 1rem;
+
+}
+.testimonial-img-ten {
+
+}
+.testimonial-img-eleven {
+    position: relative;
+    top: 9rem;
+    left: 4rem;
+
+}
+.testimonial-img-twelve {
+    position: relative;
+    bottom: 4rem;
+    left: 2rem;
+}

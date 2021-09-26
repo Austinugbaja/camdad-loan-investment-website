@@ -17,7 +17,7 @@ const SignatureLoan = () => {
                             <li>Smart way to consolidate high-interest rate balances into one low fixed monthly payments</li>
                             <li>Loans available from .... to ....</li>
                             <li>Interest rates from ... to ....</li>
-                            <li>No collateral required</li>
+                            <li>Collateral required</li>
                             <li>Flexible terms available from 12 to 60 months</li>
                             <li>One time disbursement for those special purchases</li>
                             <li>Find out almost instantly if you're approved</li>
