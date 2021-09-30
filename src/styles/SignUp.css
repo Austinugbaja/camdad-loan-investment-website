@@ -1,0 +1,63 @@
+#signup-section {
+    padding: 2.4rem;
+    background-color: #74ad14;
+}
+
+.signup-borderline {
+    border: 2px solid #74ad14;
+    border-radius: 50px;
+    padding: 1rem 6rem 2rem 6rem;
+    background-color: white;
+}
+
+.signup-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: yellowgreen;
+    text-transform: capitalize;
+}
+
+.signup-form {
+    max-width: 25rem;
+    margin: auto;
+}
+
+input[type=number],
+input[type=password] {
+    padding: .6rem;
+}
+
+.signup-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.signup {
+    margin-bottom: 1.5rem;
+}
+
+.signup-btn {
+    border: 1px solid yellowgreen;
+    border-radius: 22px;
+    font-size: .8rem;
+    font-weight: 700;
+    font-style: normal;
+    width: 8rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    color: white;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+}
+
+.signup-member p {
+    font-weight: 600;
+}
+
+.signup-member p a {
+    text-decoration: none;
+}

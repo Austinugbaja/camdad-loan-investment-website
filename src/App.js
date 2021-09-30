@@ -1,9 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import HomePage from './pages';
 import AboutUsPage from './pages/AboutUs';
 import ContactUsPage from './pages/ContactUs';
+import Login from './pages/Login';
+import SignUpPage from './pages/SignUp';
 
 
 
@@ -11,7 +12,6 @@ const App = () => {
     return (
             
        <Router>
-           <Navbar />
            <Switch>
                <Route path="/" exact>
                    <HomePage />
@@ -21,6 +21,12 @@ const App = () => {
                </Route>
                <Route path="/ContactUs" exact>
                    <ContactUsPage />
+               </Route>
+               <Route path="/SignUp" exact>
+                   <SignUpPage />
+               </Route>
+               <Route path="/Login" exact>
+                   <Login />
                </Route>
            </Switch>
        </Router>

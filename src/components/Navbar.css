@@ -1,5 +1,13 @@
 .menu {
-    background: whitesmoke;
+    background: white;
+}
+
+.logo-heading {
+    font-family: 'Carme', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .nav-section {
@@ -18,7 +26,7 @@
     color: #000 !important;
     text-transform: capitalize;
     font-weight: 600;
-    border-bottom: 3px solid whitesmoke;
+    border-bottom: 3px solid white;
 }
 .nav-item:not(:first-child) {
     padding-left: 3rem;
@@ -40,30 +48,8 @@
      border: 2px solid yellowgreen;
      background-color: yellowgreen;
      border-radius: 25px;
-     width: 6rem;
-     padding: .5rem;
+     padding: .8rem;
 }
 
-.navbar-toggler {
-    border: none;
-    /* padding: 10px 6px;
-    outline: none; */
-}
-
-.navbar-toggler-icon {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border: 1px;
-}
-
-.navbar-toggler-icon + .navbar-toggler-icon {
-    margin-top: 4px;
-    width: 22px;
-}
-
-.navbar-toggler-icon + .navbar-toggler-icon + .navbar-toggler-icon {
-    width: 22px;
-}
 
 
