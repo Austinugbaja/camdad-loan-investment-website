@@ -17,7 +17,7 @@ const Ceosection = () => {
                 </div>
                 <div className="second-quote-section text-center">
                     <div className="about-camdad-boundary">
-                    <img src={aboutCamdad} alt="about camdad" />
+                    <img src={aboutCamdad} className='aboutcamdad' alt="about camdad" />
                     <h1 className="second-quote-heading">about camdad</h1>
                     <div className="heading-line second-quote-line"></div>
                     <p className="second-quote-desc">Camdad is an online platform managed and owned by Camdad Investment Nigeria Limited, established and incorporated in Nigeria.</p>

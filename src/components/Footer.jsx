@@ -10,8 +10,11 @@ const Footer = () => {
         <div id="footer">
             <div className="container footer-section">
                 <div className="row">
-                    <div className="col-md-5">
+                    <div className="col-md-5 mb-3">
+                        <div className="logo1">
                         <img src={Logo} style={{ width: "6rem" }} alt="camdad logo" className="camdad-image" /><span className="logo-heading">camdad</span>
+                        </div>
+                        
                         <p className="footer-contact-desc">We're here to give you a headstart in securing your Finances for the Future</p>
                         <div>
                             <span className="footer-social-icons"><FontAwesomeIcon icon={faGooglePlusG} /></span>

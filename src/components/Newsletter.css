@@ -7,10 +7,12 @@
     font-weight: 700;
     font-style: normal;
     color: yellowgreen;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .newsletter-desc {
     margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -28,6 +30,7 @@ form {
     width: 20rem;
     padding: .5rem;
     border-radius: 22px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .newsletter-btn {
@@ -39,10 +42,6 @@ form {
     color: white;
     font-weight: 700;
     font-style: normal;
-}
-
-@media (max-width: 478px) {
-    #newsletter {
-        padding-top: 33rem;
-    }
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }

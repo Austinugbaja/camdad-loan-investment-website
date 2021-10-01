@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink to="/" className="nav-link" aria-current="page">Home</NavLink>
+                <NavLink to="/" className="nav-link active active1" aria-current="page">Home</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/AboutUs" className="nav-link">About Us</NavLink>
@@ -26,9 +26,9 @@ const Navbar = () => {
                 <NavLink to="/ContactUs" className="nav-link">Contact Us</NavLink>
               </li>
             </ul>
-           <div className="navbar-btn text-center">
+           <div className="navbar-btn">
              <Link to="/SignUp">
-             <button type="button" className="btn-navbar">get started</button>
+             <button type="button" className="btn-navbar">login</button>
              </Link>
            </div>
           </div>

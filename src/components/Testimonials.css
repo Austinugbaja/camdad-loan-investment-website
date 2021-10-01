@@ -87,3 +87,10 @@
     bottom: 4rem;
     left: 2rem;
 }
+
+@media (max-width: 991px) {
+    .testimonial-image {
+        position: relative;
+        width: 100%;
+    }
+}

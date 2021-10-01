@@ -3,9 +3,11 @@
     font-weight: bold;
     font-style: normal;
     margin-bottom: .5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .download-desc {
     margin-top: 1rem;
     padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }

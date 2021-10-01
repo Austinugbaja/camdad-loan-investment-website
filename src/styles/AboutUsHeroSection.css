@@ -11,6 +11,7 @@
     font-size: 2.5rem;
     font-weight: 700;
     font-style: normal;
+    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     color: #fff;
     margin-bottom: 2rem;
@@ -18,6 +19,17 @@
 
 .about-us-hero-desc {
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #fff;
 }
+
+.about-hero-img{
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+      .about-first-hero-section {
+          padding-top: 0;
+      }
+  }

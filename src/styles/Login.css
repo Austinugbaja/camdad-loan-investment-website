@@ -59,3 +59,9 @@
 .login-member p a {
     text-decoration: none;
 }
+
+@media (max-width: 991px) {
+    .login-borderline {
+        padding: 1rem 2.5rem 1rem 2.5rem;
+    }
+}

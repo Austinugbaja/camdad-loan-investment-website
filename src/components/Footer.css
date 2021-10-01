@@ -5,10 +5,16 @@
     color: #fff;
 }
 
+.logo1{
+    position: relative;
+    bottom: 1rem;
+}
+
 .footer-contact-desc {
     font-weight: lighter;
     font-style: normal;
     letter-spacing: .1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-social-icons {
@@ -20,13 +26,14 @@
     font-size: 400;
     font-style: normal;
     margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-items,
 .contact-links {
     font-weight: lighter;
     font-style: normal;
-    /* letter-spacing: .1rem; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .app-link {
@@ -37,4 +44,5 @@
     font-size: .6rem;
     font-weight: lighter;
     margin-top: 12rem;
+    font-family: 'Montserrat', sans-serif;
 }

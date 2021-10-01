@@ -2,3 +2,16 @@
     background-color: #74ad14;
     height: 23rem;
 }
+
+.appimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .appimage1{
+        
+        width: 100%;
+    }
+}

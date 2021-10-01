@@ -61,3 +61,9 @@ input[type=password] {
 .signup-member p a {
     text-decoration: none;
 }
+
+@media (max-width: 991px) {
+    .signup-borderline {
+        padding: 0 2rem 0 2rem;
+    }
+}

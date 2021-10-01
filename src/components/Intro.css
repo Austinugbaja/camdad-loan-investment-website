@@ -7,13 +7,14 @@
 .display-2--intro {
     display: inline-block;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .display-2--description {
     font-size: 1rem;
     display: block;
     text-transform: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .intro-section {
@@ -21,6 +22,10 @@
     padding: 10rem 0 0;
     width: 100%;
     height: 100%;
+}
+
+.image-fluid {
+    width: 100%;
 }
 
 
@@ -35,9 +40,13 @@
     margin-top: 1.5rem;
     width: 10rem;
     padding: .8rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 378px) {
+    .image-fluid {
+        width: 0;
+    }
     .intro-section {
         width: 100%;
     }

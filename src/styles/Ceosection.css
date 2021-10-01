@@ -5,6 +5,7 @@
     padding: 0 6rem 0rem 6rem;
     margin-bottom: 1rem;
     color: yellowgreen;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .quote-line {
@@ -17,6 +18,8 @@
 
 .quote-ceo {
     font-weight: 500;
+    font-family: 'Carme', sans-serif;
+    text-transform: uppercase;
 }
 
 .about-camdad-boundary {
@@ -34,6 +37,7 @@
     margin-bottom: 0;
     color: yellowgreen;
     text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .second-quote-line {
@@ -46,6 +50,7 @@
 .second-quote-desc {
     margin-top: 2rem;
     line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-icons {
@@ -54,4 +59,15 @@
 
 .about-icon-logo {
     padding-right: 1.5rem;
+}
+
+.aboutcamdad{
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .about-camdad-boundary {
+        margin: .5rem;
+        padding: 1rem;
+    }
 }

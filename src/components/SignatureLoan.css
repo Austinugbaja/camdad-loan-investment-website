@@ -3,6 +3,7 @@
     font-weight: 600;
     font-style: normal;
     color: rgb(175, 233, 60);
+    font-family: 'Carme', sans-serif;
 }
 
 .signature-second-heading {
@@ -10,6 +11,7 @@
     font-weight: bold;
     font-style: normal;
     color: green;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .signature-btn {
@@ -18,13 +20,22 @@
     font-style: normal;
     color: #fff;
     border: 2px solid yellowgreen;
+    text-transform: uppercase;
     background-color: yellowgreen;
     border-radius: 30px;
     margin-top: 1.5rem;
     width: 10rem;
     padding: .8rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .signature-desc {
     margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .signature{
+        width: 100%;
+    }
 }
