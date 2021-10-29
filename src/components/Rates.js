@@ -9,12 +9,9 @@ const Rates = () => {
             <div className="container">
                 <div className="rates-column">
                     <h1 className="display-6 fw-bold rates-heading">Our Rates</h1>
+                    
                 </div>
-                <div className="row">
-                    <div className="col-md-4"></div>
-                    <div className="col-md-4"></div>
-                    <div className="col-md-4"></div>
-                </div>
+                
             </div>
         </div>
         <WavyBackgroundThree />

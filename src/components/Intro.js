@@ -17,7 +17,7 @@ const Intro = () => {
                         <button type="button" className="btn-text">Get Started</button>
                         </div>
                     </div>
-                    <div className="col-md-6 intros hero-img">
+                    <div className="col-md-6 intros hero-img d-none d-md-block">
                         <img src={Image} alt="intro" className="image-fluid" />
                     </div>
                 </div>

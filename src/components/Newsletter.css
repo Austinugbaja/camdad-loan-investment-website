@@ -45,3 +45,9 @@ form {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 991px) {
+    #newsletter {
+        margin-top: 10rem;
+    }
+}
